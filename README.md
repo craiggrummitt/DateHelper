@@ -75,7 +75,7 @@ if let date = Date(fromString: "09 Sep 2011 15:26:08 +0200", format: .httpHeader
 	// Do stuff with date
 }
 ```
-The DateFormatType enum has a few predifined options as well as a tupple for providing a custom date format.
+The DateFormatType enum has a few predifined options as well as a tuple for providing a custom date format.
 
 ````
 case isoYear: i.e. 1997
@@ -133,7 +133,7 @@ let string = date.toString(format: .rss)
 // Fri, 09 Sep 2011 15:26:08 +0200
 ```
 
-The DateFormatType enum has a few predifined options as well as a tupple for providing a custom date format.
+The DateFormatType enum has a few predifined options as well as a tuple for providing a custom date format.
 
 ````
 case isoYear: i.e. 1997
@@ -255,7 +255,7 @@ Use the `compare(_ comparison:DateComparisonType) -> Bool` function to compare a
 var isSameDay = now.compare(.isSameDay(as: date))
 var isToday = now.compare(.isToday)  
 ```
-The DateComparisonType enum can compare the date to a predetermined date, period or a custom date in a tupple. i.e. isLater(thanDate:Date)
+The DateComparisonType enum can compare the date to a predetermined date, period or a custom date in a tuple. i.e. isLater(thanDate:Date)
 
 ```Swift
 // Days
